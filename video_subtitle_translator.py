@@ -24,7 +24,7 @@ from faster_whisper import WhisperModel
 
 # Deepseek API 密钥（必填）
 # 获取方式：访问 https://platform.deepseek.com/ 注册并创建 API Key
-DEEPSEEK_API_KEY = os.environ.get("YOURAPI", "")
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 
 # Deepseek API 接口地址（通常无需修改）
 DEEPSEEK_BASE_URL = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
